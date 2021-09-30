@@ -9,8 +9,7 @@ We are building the best community of developers and learners on the planet - bu
 
 ## 📝 How to win a free t-shirt?
 
-[![GitHub issues](https://img.shields.io/github/issues/codedamn/Codedamn-Tutorials?logo=github)](https://github.com/codedamn/Codedamn-Tutorials/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/codedamn/Codedamn-Tutorials)](https://github.com/codedamn/Codedamn-Tutorials/pulls) 
-
+[![GitHub issues](https://img.shields.io/github/issues/codedamn/codedamn-hacktoberfest-projects?logo=github)](https://github.com/codedamn/codedamn-hacktoberfest-projects/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/codedamn/codedamn-hacktoberfest-projects)](https://github.com/codedamn/codedamn-hacktoberfest-projects/pulls) 
 
 1) Go to codedamn projects: https://codedamn.com/projects
 2) Pick up a project according to your preference
@@ -18,7 +17,7 @@ We are building the best community of developers and learners on the planet - bu
 4) Fork/clone this repository.
 
 ```bash
-git clone https://github.com/codedamn/Codedamn-Tutorials.git
+git clone https://github.com/codedamn/codedamn-hacktoberfest-projects.git
 ```
 
 5) In the `projects` directory, create a new file as follows: `submission_your_github_username.html` inside your chosen topic folder and send the PR using the following template:

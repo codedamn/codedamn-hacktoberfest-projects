@@ -1,0 +1,290 @@
+/* Reset */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    overflow: auto;
+}
+
+body {
+    line-height: 1.75;
+    padding-top: 8%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #777777;
+    background: url("assets/images/bg.jpg") no-repeat center center/cover;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+input, button,textarea {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+    font-size: 2.4em;
+    line-height: 1.25;
+    color: #363636;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.8em;
+    line-height: 1;
+    color: #363636;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+a {
+    color: #fff;
+    opacity: 0.5;
+    transition: all 0.3s linear;
+}
+
+a.active , a:hover {
+    opacity: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+nav a {
+    font-size: 1.8em;
+    margin: 0 0.5em;
+}
+
+main {
+    position: relative;
+    top: 0;
+    left: -50%;
+    height: auto;
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+section {
+    padding: 0 4em;
+    position: relative;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    margin: 1em auto;
+    max-width: 1000px;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.card {
+    background: #fff;
+    width: 100%;
+}
+
+.card-body {
+    padding: 2em 1.5em;
+}
+
+.active-link-pointer {
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: calc(100% - 6.9em);
+    z-index: -1;
+    transform: rotate(45deg);
+    display: none;
+    transition: all 0.3s linear;
+}
+
+#home-tab,
+#work-tab,
+#contact-tab {
+    display: none;
+}
+
+#home-tab.active {
+    display: block;
+}
+
+.home-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-grid .card-body {
+    flex: 5;
+}
+
+.home-grid img {
+    width: 100%;
+    height: 100%;
+}
+
+.home-grid .card-bottom {
+    position: relative;
+    flex: 3;
+    height: 100%;
+   line-height: 0;
+}
+
+.btn.btn-left {
+    position: absolute;
+    top: calc(56% - 60px);
+    right: 0;
+    color: #fff;
+    background: #222222;
+    opacity: 0.8;
+    padding: 0.35em 0.65em;
+    font-size: 1.8em;
+    border: none;
+    cursor: pointer;
+}
+
+.btn.btn-left:hover {
+    opacity: 0.6;
+}
+
+#work-tab.active {
+    display: block;
+}
+
+#work-tab p {
+    margin-bottom: 30px;
+}
+
+.img-grid {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-grid img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#contact-tab.active {
+    display: block;
+}
+
+
+#home-tab.active  ~ .active-link-pointer {
+    display: block;
+}
+
+#work-tab.active ~ .active-link-pointer {
+    display: block;
+    left: calc(100% - 3.2em);
+}
+
+#contact-tab.active ~ .active-link-pointer {
+    display: block;
+    left: calc(100% + .5em);
+}
+
+/* Tablet Breakpoint */
+@media(max-width:900px) {
+    .img-grid {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .home-grid {
+        flex-direction: column;
+    }
+
+    .home-grid .card-body {
+        display: none;
+    }
+
+    .home-grid .card-bottom {
+        flex: auto;
+        width: 100%;
+        height: auto;
+    }
+}
+
+footer {
+    padding-top: 15px;
+    font-weight: normal;
+    font-size: small;
+    flex-shrink: 1;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 8%;
+    text-align: center;
+    color: #ddd;
+    opacity: 0.9;
+}
+
+/* Mobile Breakpoint */
+@media (max-width:500px) {
+    .img-grid {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 0 1em;
+    }
+
+    #boton{
+        width: 100%;
+    }
+}
+#name,
+#email      {
+    padding:9px;
+    width: 49%;
+    position: relative;
+    background-color:rgb(243, 239, 239);
+    border:0px solid black;
+
+    
+}
+#email{
+    left: 10px;
+}
+
+#subuject{
+    padding:9px;
+    width:100%;
+  margin-top:20px;
+  background-color:rgb(243, 239, 239);
+  border:0px solid black;
+}
+#mesg{
+  margin-top: 20px;
+  padding:9px;
+width:100% ;
+padding-bottom: 130px;
+background-color:rgb(243, 239, 239);
+border:0px solid black;
+
+}
+#boton{
+    color: white;
+    background-color: rgb(32, 30, 30);
+    padding:12px; 
+    border:0px solid black;
+    margin-top: 4px;
+
+}
+#cont{
+    padding: 5px;
+}

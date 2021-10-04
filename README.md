@@ -30,6 +30,7 @@ git clone https://github.com/codedamn/codedamn-hacktoberfest-projects.git
 
 👉   <b>Name of the file: </b> <i>your_github_username.html</i><br/>
 👉   <b>Inside the file, paste your codedamn's submission URL. </b> The format is: <i>`https://codedamn.com/project/solution/:id`</i><br/>
+👉   <b>Write your Email ID, Github username, and name<br/>
 👉   <b>Send a Pull Request</b> to `main` branch<br/>
 
 

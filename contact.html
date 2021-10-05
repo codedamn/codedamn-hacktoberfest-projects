@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codedamn Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/268aa0ba7c.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    .container {
+        padding: 28px;
+        width: 700px;
+    }
+    .footer {
+        color: #ebebeb;
+        font-size: small;
+    }
+    input, button, textarea {
+        text-decoration: none;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        margin-left: 12px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        background-color: rgb(233, 228, 228);
+        color: rgb(99, 101, 99);
+    }
+    ::placeholder {
+        padding: 3px;
+    }
+    textarea {
+        padding: 3px;
+    }
+    #com, textarea {
+        width: 618px;
+        height: 40px;
+    }
+    textarea {
+        height: 100px;
+    }
+    #name, #email {
+        width: 300px;
+        height: 40px;
+    }
+    
+    h1 {
+            font-weight: bold;
+            color: #201f1f;
+
+        }
+    h3 {
+            font-weight: lighter;
+            color: #827f7f;
+        }
+    .btn {
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 5px;
+    }
+        @media screen and (max-width:960px) {
+        .nav a {
+            padding: 8px;
+        }
+        .nav {
+            margin-top: 80px;
+        }
+        .container {
+            width: 350px;
+        }
+        #com, textarea, button {
+        width: 300px;
+        height: 40px;
+        }
+        textarea {
+            height: 110px;
+        }
+    }
+</style>
+
+<body>
+    <div class="ali">
+        <div class="nav">
+            <a href="index.html" id="home"><i class="fas fa-home"></i></a>
+            <a href="work.html" id="work"><i class="fas fa-folder"></i></a>
+            <a href="contact.html" class="active" id="contact"><i class="fas fa-envelope"></i></a>
+            <a href="#" id="twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+        
+        <div class="container">
+            <h1>Contact Me</h1>
+            <br>
+                <input type="text" id="name" name="name" placeholder="Name">
+                <input type="email" name="email" id="email" placeholder="E-Mail">
+                <br>
+                <input type="text" id="com" name="com" placeholder="Subject">
+                <br>
+                <textarea name="cmments" id="comments" cols="85" rows="85">Message</textarea>
+                <br>
+                <button class="btn" type="submit">Send Message</button>
+        </div>
+        <br>
+        <div class="footer">
+            <p>&copy; Untitled.&ensp;| &ensp;Design: <u>HTML5 UP</u>&ensp;| &ensp;Demo Images: <u>Unsplash</u></p>
+        </div>
+    </div>
+</body>
+
+</html>

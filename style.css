@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  background-image: url(bg.jpg);
+  background-repeat: strech;
+  background-size: cover;
+  max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ali {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav {
+  margin: 150px;
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+.nav a {
+  padding: 25px;
+  color: #aaaaaa;
+  font-size: 25px;
+}
+a.active {
+  color: white;
+}
+.container {
+  background-color: white;
+  width: 590px;
+}
+

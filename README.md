@@ -34,10 +34,10 @@ git clone https://github.com/codedamn/codedamn-hacktoberfest-projects.git
 👉   <b>Send a Pull Request</b> to `main` branch<br/>
 
 
-Now just wait for PR to get merged :D
+Now you have to just wait for PR to get merged. :D
 That's it, folks! 
 
-## 🏆 SWAGS
+## 🏆 SWAGS !!
 <p align="center">
   <img align="center" src="https://pbs.twimg.com/media/FAlpRoMVkAsSYfC?format=jpg&name=large" alt="swags" height="50%" width="50%" />
 </p>
@@ -45,9 +45,9 @@ That's it, folks!
 👉  <b>  For every successful submission, if the pull request gets accepted you'll get the official CODEDAMN SWAGS/MERCH! </b> 🎉
 🎉
 
-## Thanks
+## Thanks!!
 
-Glad to see here! Show some love by [starring](https://github.com/codedamn/Codedamn-Tutorials/) this repository.
+Glad to see you here! Please show some love by [Starring](https://github.com/codedamn/Codedamn-Tutorials/) this repository.
 
 
 

@@ -1,0 +1,290 @@
+!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>codedamn Project</title>
+	</head>
+	<body>
+	<body class="bg-gray-100 relative font-sans">
+  <header 
+    id="master-header"
+    class="h-screen text-white flex flex-col justify-center  relative"
+    style="background-image: linear-gradient(135deg, #231437 0%, #2c385e 50%, #336e6b 100%); min-height: 760px"
+  >
+    <div
+      class="z-0 absolute top-0 left-0 w-full h-full bg-cover bg-no-repeat"
+      style="background-image: url(https://www.hulu.com/static/hitch/s3/2018-01/1600-lifestyle-background%402x.jpg)">
+    </div>
+    <div class="z-10 relative py-12 mx-auto md:w-1/2 text-center">
+      <h1 class="leading-tight mb-8 text-5xl text-center font-thin">
+        All your TV in One Place
+      </h1>
+      <p class="text-center text-xl font-light mb-8">
+        Watch thousands of shows and movies, with plans starting at $5.99/month.
+      </p>
+      <p class="text-base font-thin">
+        HBO®, SHOWTIME®, CINEMAX® and STARZ® available as add-ons.
+      </p>
+      <button
+        type="button"
+        class="mt-6 bg-gray-100 text-gray-900 shadow hover:shadow-lg uppercase py-4 px-6 font-semibold"
+      >
+        Start Your Free Trial
+      </button>
+      <p class="mt-4 text-xs opacity-50">
+        Free trial available for new and eligible returning subscribers only.
+      </p>
+    </div>
+  </header>
+  <div class="container w-full mx-auto media-container">
+    <img src="https://www.hulu.com/static/hitch/s3/2019-01/1600-content-grid-2X_1.jpg?DGw4IvJIypp7ynwDtnAMYw17F719vdLP"
+         alt="Hulu Live TV, The Handmaid's Tale, The Good Doctor, Brooklyn Nine-Nine, Teen Titans Go, Transformers"
+      class="w-full h-auto flex-shrink-0 opacity: 1"
+    />
+  </div>
+  
+  <div class="container mx-auto">
+    <div class="plans-heading w-full p-8 text-center mb-16">
+      <h2 class="mb-2 text-4xl leading-tight font-thin text-center text-gray-900">
+        Select Your Plan
+      </h2>
+      <span class="text-2xl text-gray-600">
+        No hidden fees, equipment rentals or installation appointments.
+      </span>
+    </div>
+    <div class="flex flex-wrap plan-cards -mx-6">
+      <!-- first plan -->
+      <div 
+        class="px-4 md:w-1/2 w-full"
+      >
+        <div
+          class="shadow-lg"
+        >
+           <div
+             class="w-full"
+             style="height: 3px; background: linear-gradient(90deg, #05AAA3 0%, #72DE93 56.73%, #92ED8D 100%)"    
+          >
+              &nbsp;
+            </div>
+          <div class="w-full bg-white p-10 text-center flex flex-col items-center">
+           
+            <h3 class="text-xl uppercase font-semibold text-gray-700">
+              Hulu
+            </h3>
+            <p class="mb-2 font-light text-2xl text-gray-600">
+              Get 1 month free, then starts at
+            </p>
+            <div class="priceline">
+              <p class="text-5xl inline-block text-gray-800">
+                $
+                5.99
+                /
+              </p>
+              <p class="text-gray-700 inline-block">
+                month
+              </p>
+            </div>
+            <button
+              class="mt-6 block border hover:border-transparent hover:bg-gray-900 hover:text-white text-center border-gray-800 px-6 py-4 shadow hover:shadow-lg uppercase w-full text-gray-900 bg-white"
+              style="max-width: 344px"
+            >
+              Select Plan
+            </button>
+          </div>
+          <div class="w-full bg-gray-100 p-8">
+            <ul class="list-none p-0 m-0 text-gray-600">
+              <li
+                class="mb-6">
+                <div class="flex">
+                  <i class="fas fa-check mr-4 text-green-400"></i>
+                  <p>
+                    Get unlimited access to the Hulu streaming library with limited or no ads. Enjoy full seasons of exclusive series, hit movies, Hulu Originals, kids shows, and more
+                  </p>
+                </div>
+
+              </li>
+              <li
+                class="mb-6">
+                <div class="flex">
+                  <i class="fas fa-check mr-4 text-green-400"></i>
+                  <p>
+                    Watch on your favorite devices
+                  </p>
+                </div>
+
+              </li>
+              <li
+                class="mb-6">
+                <div class="flex">
+                  <i class="fas fa-check mr-4 text-green-400"></i>
+                  <p>
+                    Switch plans or cancel anytime
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <hr class="m-0 p-0 text-gray-400" />
+           <div class="w-full bg-gray-200 p-8 text-center">
+            <a href="#" class="text-gray-600 text-xl">
+              <span class="mr-1">
+                See Add-ons
+              </span>
+              <i class="fas fa-chevron-down text-gray-500"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end first plan -->
+      
+      <!-- second plan -->
+      <div class="px-4 md:w-1/2 w-full">
+        <div class="shadow-lg">
+          <div class="w-full bg-white p-10 text-center flex flex-col items-center">
+            <h3 class="text-xl uppercase font-semibold text-gray-700">
+              Hulu + Live TV
+            </h3>
+            <p class="mb-2 font-light text-2xl text-gray-600">
+              Get 7 days free, then starts at
+            </p>
+            <div class="priceline">
+              <p class="text-5xl inline-block text-gray-800">
+                $
+                44.99
+                /
+              </p>
+              <p class="text-gray-700 inline-block">
+                month
+              </p>
+            </div>
+            <button
+              class="mt-6 block border hover:border-transparent hover:bg-gray-900 hover:text-white text-center border-gray-800 px-6 py-4 shadow hover:shadow-lg uppercase w-full text-gray-900 bg-white"
+              style="max-width: 344px"
+            >
+              Select Plan
+            </button>
+            <a href="#" class="mt-2 text-blue-600 text-sm">
+              Learn More
+            </a>
+          </div>
+          <div class="w-full bg-gray-100 p-8">
+            <ul class="list-none p-0 m-0 text-gray-600">
+              <li
+                class="mb-6">
+                <div class="flex">
+                  <i class="fas fa-check mr-4 text-green-400"></i>
+                  <p>
+                    Get unlimited access to the Hulu streaming library with limited or no ads. Enjoy full seasons of exclusive series, hit movies, Hulu Originals, kids shows, and more
+                  </p>
+                </div>
+
+              </li>
+              <li
+                class="mb-6">
+                <div class="flex">
+                  <i class="fas fa-check mr-4 text-green-400"></i>
+                  <p>
+                   Stream 60+ top Live and On Demand TV channels including sports, news, and entertainment
+                  </p>
+                </div>
+
+              </li>
+              <li
+                class="mb-6">
+                <div class="flex">
+                  <i class="fas fa-check mr-4 text-green-400"></i>
+                  <p>
+                    Record Live TV with 50 hours of Cloud DVR storage
+                  </p>
+                </div>
+              </li>
+              <li
+                class="mb-6">
+                <div class="flex">
+                  <i class="fas fa-check mr-4 text-green-400"></i>
+                  <p>
+                    Watch Live TV online and on supported devices
+                  </p>
+                </div>
+              </li>
+              <li
+                class="mb-6">
+                <div class="flex">
+                  <i class="fas fa-check mr-4 text-green-400"></i>
+                  <p>
+                    Switch plans or cancel anytime
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <hr class="m-0 p-0 text-gray-400" />
+          <div class="w-full bg-gray-200 p-8 text-center">
+            <a href="#" class="text-gray-600 text-xl">
+              <span class="mr-1">
+                See Add-ons
+              </span>
+              <i class="fas fa-chevron-down text-gray-500"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end second plan -->
+    </div>
+  </div>
+  <div class="w-full relative">
+    <div class="flex flex-wrap pt-10 px-64 pb-0">
+      <div class="md:w-1/2 w-full px-2 z-10 my-auto">
+        <h2 class="text-3xl leading-tight mb-8 relative">
+          Watch Thousands of Shows and Movies Anytime, Anywhere
+        </h2>
+        <div class="">
+          <button
+            class="uppercase bg-gray-900 text-white px-4 py-4 shadow text-sm z-30 hover:shadow-lg"
+            style="min-width: 136px"
+          >
+            Start Your Free Trial
+          </button>
+        </div>        
+      </div>
+      <div class="md:w-1/2 w-full px-2 flex justify-end z-10">
+        <img
+          class="h-auto"
+          style="max-height: 422px"
+          alt="Watch Thousands of shows and movies anytime, anywhere"
+          src="https://www.hulu.com/static/hitch/s3/2018-01/mobile-devices-footer%402x.png"
+        />
+      </div>
+    </div> 
+    <div class="block absolute w-full left-0 bg-white z-0" style="top: 25%; height: 75%">
+    </div>  
+  </div>
+  <footer
+    class="py-8 mx-auto container px-8"
+  >
+    <div class="flex justify-between">
+    <ul class="list-none m-0 p-0 flex uppercase -mx-4 text-gray-700 text-sm">
+      <li class="px-2 inline-block">
+        <a href="#" class="no-underline">About</a>
+      </li>
+      <li class="px-2 inline-block">
+        <a href="#" class="no-underline">
+          Jobs
+        </a>
+      </li>
+      <li class="px-2 inline-block">
+        <a href="#" class="no-underline">
+          Help
+        </a>
+      </li>
+    </ul>
+      <p class="text-gray-800 font-bold uppercase">
+        &copy; 2019 Hulu
+      </p>
+    </div>
+  </footer>
+</body>	<!-- start writing your code -->
+	</body>
+</html>

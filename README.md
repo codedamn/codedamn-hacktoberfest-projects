@@ -49,5 +49,7 @@ That's it, folks!
 
 Glad to see here! Show some love by [starring](https://github.com/codedamn/Codedamn-Tutorials/) this repository.
 
+## FAQ
 
-
+  Q. How much time will it take for our PR to get accepted?
+  A. We are receiving responses in a huge amount, thus it is very difficult to keep a track on all of it. We are working on it, you do not need to worry about it, we'll surely accept your PR before this month end. Please have patience.

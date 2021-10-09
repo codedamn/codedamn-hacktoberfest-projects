@@ -55,6 +55,9 @@ DigitalOcean has excluded this repository from their Hacktoberfest submission. W
 👉 **For every successful submission, if the pull request gets accepted you'll get the official [CODEDAMN SWAGS/MERCH](https://shop.codedamn.com)/[PRO ACCOUNTS](https://codedamn.com/pricing)!** 🎉
 🎉
 
+## LEARN FULL-STACK WEB DEVELOPMENT
+If you're new to web development, starting with [codedamn's full-stack learning path](https://codedamn.com/learning-paths/fullstack) is the best way to begin your web developer journey. You will learn about HTML, CSS, JavaScript, React, Next.js, Node, MongoDB, Caching, and more! Multiple projects, exams, and hands-on exercises available in every course, with certificate of completions. [Start here](https://codedamn.com/learning-paths/fullstack)
+
 ## THANK YOU
 
 Glad to see here! Show some love by [starring](https://github.com/codedamn/Codedamn-Tutorials/) this repository.

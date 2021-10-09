@@ -28,14 +28,24 @@ git clone https://github.com/codedamn/codedamn-hacktoberfest-projects.git
 
 5) In the `Submission projects` directory, create a new file as follows: `submission_your_github_username.html` inside your chosen topic folder and send the PR using the following template:
 
-👉   <b>Name of the file: </b> <i>your_github_username.html</i><br/>
-👉   <b>Inside the file, paste your codedamn's submission URL. </b> The format is: <i>`https://codedamn.com/project/solution/:id`</i><br/>
-👉   <b>Write your codedamn username and name in the same file<br/>
-👉   <b>Send a Pull Request</b> to `main` branch<br/>
+👉   **Name of the file:** <i>your_github_username.html</i><br/>
+👉   **Inside the file, paste your codedamn's submission URL.** The format is: <i>`https://codedamn.com/project/solution/:id`</i><br/>
+👉   **Write your codedamn username and name in the same file**<br/>
+👉   **Send a Pull Request** to `main` branch<br/>
 
 
 Now just wait for PR to get merged :D
 That's it, folks! 
+
+## FAQ
+
+### How much time will it take for our PR to get accepted?
+
+We have a small team of maintainers looking at every submission's source code and determine if they should be merged or not. The order of PRs reviewed is not fixed, however you can be assured that your pull request would be reviewed soon. Due to excessive load, it might take a few days, therefore please be patient. We intend to make the Pull Request count 0 before we announce final results.
+
+### The repository is not included in DigitalOcean Hacktoberfest?
+
+DigitalOcean has excluded this repository from their Hacktoberfest submission. We have no control over DigitalOcean ToS. Although you all are building a full project and doing a lot of effort, all DigitalOcean sees is a PR with your submission link. However this does not change the fact that if any one of your PR is merged, we would send swags from our side to you. Hacktoberfest rules from DigitalOcean does not impact our ability to send you swags.
 
 ## 🏆 SWAGS
 <p align="center">
@@ -49,7 +59,4 @@ That's it, folks!
 
 Glad to see here! Show some love by [starring](https://github.com/codedamn/Codedamn-Tutorials/) this repository.
 
-## FAQ
 
-  Q. How much time will it take for our PR to get accepted?
-  A. We are receiving responses in a huge amount, thus it is very difficult to keep a track on all of it. We are working on it, you do not need to worry about it, we'll surely accept your PR before this month end. Please have patience.

@@ -18,7 +18,7 @@ We are building the best community of developers and learners on the planet - bu
 [![GitHub issues](https://img.shields.io/github/issues/codedamn/codedamn-hacktoberfest-projects?logo=github)](https://github.com/codedamn/codedamn-hacktoberfest-projects/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/codedamn/codedamn-hacktoberfest-projects)](https://github.com/codedamn/codedamn-hacktoberfest-projects/pulls) 
 
 1) Go to codedamn projects: https://codedamn.com/projects
-2) Pick up a project according to your preference
+2) Pick up a project according to your preference.
 3) Complete the project.
 4) Fork/clone this repository.
 
